@@ -1,0 +1,37 @@
+@import '_bootstrap_variables';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import '_syntax';
+
+body {
+  padding-top: 3em;
+}
+
+::selection,
+::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+.navbar {
+  background: #fff;
+}
+
+.footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  .col-xs-12 {
+    line-height: 1.2;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+@include media-breakpoint-down(xs) {
+  .navbar-fixed-top {
+    .container {
+      padding: 0;
+    }
+  }
+}

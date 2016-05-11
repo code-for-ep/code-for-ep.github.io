@@ -1,0 +1,24 @@
+# Meta
+name: 코드포은평 | Code for eunpyeong
+description:
+url: https://codeforep.org
+baseurl: ''
+
+timezone: 'Asia/Seoul'
+permalink: pretty
+
+# Build
+exclude:
+  - node_modules
+  - .jekyll-metadata
+  - .gitignore
+  - .ruby-version
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - gulpfile.js
+  - package.json
+gems:
+  - jekyll-seo-tag
+
+image: /assets/code-for-ep-logo.png

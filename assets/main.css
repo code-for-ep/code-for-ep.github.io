@@ -4377,7 +4377,12 @@ a.bg-danger:focus, a.bg-danger:hover {
   color: #90a959; }
 
 body {
-  padding-top: 3em; }
+  padding-top: 3em;
+  word-break: keep-all;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-smooth: always; }
 
 ::selection,
 ::-moz-selection {
